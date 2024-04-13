@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:columnCount="6"
+    android:rowCount="3"
+    tools:context=".MainActivity5">
+
+<!--    b7aded l number of collumn bene2an 3ala 3adad 2as8ar 3onsour 3ande-->
+
+<!--
+    tare2a tenye lal jez2 l image w text howe este3mel l linear layout:
+
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+        <ImageView
+          android:id="@+id/imageView12"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#7E9BB3"
+          app:srcCompat="@drawable/ic_launcher_foreground" />
+
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textview1"/>
+
+
+    </LinearLayout>
+-->
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview1"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:padding="8dp"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"
+        android:layout_margin="8dp"
+        android:drawableTop="@drawable/ic_launcher_foreground"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:background="#009688"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:background="#7E9BB3"
+        android:layout_rowWeight="1"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#153E17"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:background="#E91E63"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview2"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:padding="8dp"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"
+        android:layout_margin="8dp"
+        android:drawableTop="@drawable/ic_launcher_foreground"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:background="#4CAF50"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#BC476F"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#20BBCF"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#BF914E"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#4919A0"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#F44336"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="#276A9F"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+
+</GridLayout>

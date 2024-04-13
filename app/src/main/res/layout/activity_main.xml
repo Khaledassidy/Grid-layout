@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+<!--    grid laylout howe layout byesma7lk bt7aded l 3anser abl ma t7otoun 3ala shakl table-->
+<!--    first attribute howe 3adad l row w 3adad l column-->
+<!--    wa2t 2a3mel gridlayout lezm 7aded kam row w kam column b 2albo-->
+<!--    row:android:rowCount="4"
+        column:android:columnCount="4"
+-->
+<!--    3ada l row mesh ejbere iza zeed 3ada l view byefta7 row tene by diffult-->
+<!--    laken 3ada l column ejbere-->
+<!--    3mltt 4 button bas jeet la 7ot l 5ames la 7alo 7atale yeh b row tene lesh le2no ana 3arft l grid 4*4 ya3ne ma byesma7le ela bkol row 4 w bkel column 4-->
+
+
+<!--    zero based column indices btblesh t3od l column mn 0-->
+    <!--    zero based row indices btblesh t3od l row mn 0-->
+<!--    kel view bel grid layout elo position mn 5elel l row column-->
+<!--    ya3ne l postions:
+        button1:00
+        button2:01
+        button3:02
+        button4:03
+        button5:10
+        button6:11
+        button7:12
+
+-->
+
+<!--    fe she 3ana esmo orintation keef yrateb l 3anaser by diffult horizantal 3amoude beblesh mn l shmeel lal yamen -->
+<!--    oriantation horizantal or vertical-->
+<!--    vertical beblesh mn fo2 la ta7t ya3ne 3amoude be3abehoun-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7" />
+
+</GridLayout>

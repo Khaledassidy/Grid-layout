@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="4"
+    tools:context=".MainActivity3">
+
+<!--    3ande attribute raw column:
+        hayde l attribute bt7aded kel view b2aye row 2 b2aye column
+
+        houn 3ande zer 1 2a5ad by diffuly index 00
+
+        tyeb ana fene 8ayerlo l position mn 5elel 2 attribute
+
+        android:layout_row=""
+        android:layout_column=""
+
+        been le braket b7aded l index ta3el l view
+        ya3ne b2aye position
+
+        houn l button 1 howe index 00
+        ana 3mlt eno yseer 01
+         android:layout_row="0"
+        android:layout_column="1"
+        so n7at howe bel 01
+        w  l 00 fadye w 01 fadye
+        w beee2eee l button byejo wara
+        ya3ne l button 1 wara l button 2 l ba3do button 3
+        fa dalo heek
+
+
+-->
+
+<!--    hala2 masaln l button ra2m 2 bade raje3a bel 2awal
+         android:layout_row="0"
+        android:layout_column="0"
+        sho sar bel zabt:
+        button 2 saret bel 00
+        bas fe waraha l button 3
+        fa btseer l button 3 bel 01 l2no howe beshof eno sho fe waraha lal 2 fe button 3 fa beshof 2a2rab ma7al ba3d l button 2
+        w ana b7aded l button 1 eno bel 02
+        fa n7atet bel 02
+        w byeje waraha l button 4 by diffult
+
+-->
+
+<!--    tyeb l 3 bade 5aleha bel row 1 col 3
+        android:layout_row="1"
+        android:layout_column="3"
+        bas lesh be2e l button nezlo 3ande mas7et fadye lesh ma n7ato fehoun
+        la2 by diffult le 3 feha waraha 4 fa ejbare tenzal row ten7at houn
+        w l 4 feha warah l 5 w l 5amse feha waraha 6 w 6 fe waraha 7..
+
+
+        law 7atet ana l button masaln l 4 ba3d l tenen 7a teje by diffult wara l 2
+-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_row="0"
+        android:layout_column="0"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:text="3" />
+
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7" />
+
+
+</GridLayout>

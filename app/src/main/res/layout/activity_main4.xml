@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="4"
+    tools:context=".MainActivity4">
+
+
+
+
+<!--law bade l button ra2m 1 ma ye5od 5aleye hala2 l button e5de 5aleye wa7de
+    ana bade yeha te5od 5alyten ya3ne bade edmej 5alyten 5ale l button 1 ye5od 5alyten
+    heed byetsama she esmo colspan
+    colspan:bade edmej 5alyten 7ed ba3d ya3ne button ra2m 1 w 2 bade edmej 2 column
+    rowspan bade edmej 5alyten fo2 ba3d ya3ne ra2m 1 w 5 bade edmej 2 row
+
+
+
+-->
+
+<!--2awl she button ra2m wa7ad 7a 2a3melo colspan
+      android:layout_columnSpan="2" ma3neta 5od 2 column 7ed ba3d
+      btze7 button 2 3al yamen
+      l button 1 n7ajezlo 5alyten 7ed ba3d sar button 1 elo 5alyten 7ed ba3d
+
+      bas lesh zer ma a5ad l maefe l ma7jezlo:
+      l2no bas testa3mel colspan lezm testa3mel ma3o she esmo colmnweight
+              android:layout_columnWeight="1" 5od kel l mase7a le 2edemak
+
+      w bas testa3mel rowspan testa3mel rowweight
+              android:layout_rowWeight="1"  5od kel l mase7a le ta7tak
+
+
+-->
+
+<!--    l button 7 kamen bade e7jezlo 5alyten 7ed ba3d a3mel colspan colmnweight
+        la ten7ajaz 5aleye 7ed 6 tenzal button 7 la ta7t 3ala row jdeed
+
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1" 5od kel l mase7a le 2odemak
+
+
+-->
+
+<!--    button 8 bade yeha te5od kel l mase7a ya3ne 4 5aleya
+        android:layout_columnSpan="4"
+        android:layout_columnWeight="1"
+
+-->
+
+<!--    l button 1 la n2ol bada te5od l mase7a  le ta7to bade edmej 2 row
+         fa eza 3mlt   android:layout_rowSpan="2"
+         ya3ne 5od l 5aleye le ta7to bas howe 3ared fa mnwejhet nazaro l 5aleye le ta7to hone 3ebara 3an 5alyten l button 4 w button 5 ya3ne 3am2olo 7jezle mase7a nafs 7ajm l button 1 ta7to
+          ba3den 3meel row weight:   android:layout_rowWeight="1"
+
+-->
+
+<!--
+        android:layout_columnSpan="" ma3  android:layout_columnWeight=""
+         android:layout_rowSpan=""   ma3   android:layout_rowWeight=""
+
+ -->
+
+
+<!--    njareb button 2 te5od 2 cells mn fo2 w 2 cells mn ta7t ya3ne 5aleha shakla bteshbah l button 1
+
+         fa ba3mel 2awl she rowspan 2 lal button 2
+         w ba3den rowweight lal button 2
+         ba3den colspan 2 lal button 2
+         ba3den colweight lal button 2
+
+
+-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="2"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_columnWeight="1"
+        android:text="8" />
+
+
+
+
+
+
+
+</GridLayout>
